@@ -38,7 +38,7 @@ class BlogController extends Controller
         $blog->fill($form);
         $blog->save();
     
-        return redirect('admin/blog/create');
+        return redirect('admin/blog/index');
         
     }
     
